@@ -1,2 +1,3 @@
 <img width="613" height="408" alt="image" src="https://github.com/user-attachments/assets/ab322eb9-db5b-47bb-a30c-0b6c0aadeb6a" />
 
+in js we can simply have a map and use underlying things from there,but here we have init with a keyword called make and this is the way ki map of string with the connection of the users, singleton pattern is shown in a weird way here you do have pvt things by keeping them in lowercase and all but this once.Do is the main think which inits the map and exports the instance, further this rWMutext is like read safe for goroutines hence a lot of gorouitnes can read from this instance but only one can write in it
